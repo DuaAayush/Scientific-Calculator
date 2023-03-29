@@ -297,11 +297,11 @@ btnDiv = Button(calc, text="/", width=6,
 				bd=4, command=lambda: added_value.operation("divide")
 				).grid(row=4, column=3, pady=1)
 
-btnZero = Button(calc, text="0", width=6,
-				height=2, bg='black', fg='white',
-				font=('Helvetica', 20, 'bold'),
-				bd=4, command=lambda: added_value.numberEnter(0)
-				).grid(row=5, column=0, pady=1)
+#btnZero = Button(calc, text="0", width=6,
+#				height=2, bg='black', fg='white',
+#				font=('Helvetica', 20, 'bold'),
+#				bd=4, command=lambda: added_value.numberEnter(0)
+#				).grid(row=5, column=0, pady=1)
 
 btnDot = Button(calc, text=".", width=6,
 				height=2, bg='powder blue',
